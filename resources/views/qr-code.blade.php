@@ -5,10 +5,15 @@
         border:1px solid black;
     }
 </style>
-<h1>Qr Code Generator</h1>
 <body>
-    
-    {!! QrCode::generate('denta.tuek') !!}
-    
+
+
+    <center>
+        <h1 style="margin-top: 100px">Qr Code Generator</h1>
+        {!! QrCode::size(300)->generate('denta.tuek') !!}
+
+    </center>
+
+
 </body>
 </html>

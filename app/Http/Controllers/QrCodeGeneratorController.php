@@ -12,5 +12,4 @@ class QrCodeGeneratorController extends Controller
     {
         return view('qr-code');
     }
-    
 }
